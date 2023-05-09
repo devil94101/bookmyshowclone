@@ -7,6 +7,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 export class Booknow extends Component {
   constructor(props) {
     super(props);
+    
 
     this.state = {
       showId: this.props.route.params.data1.idShow,
